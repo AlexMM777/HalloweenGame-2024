@@ -41,6 +41,7 @@ public class PlayerControlAuthorative : NetworkBehaviour
     private Transform camPos;
     float xRotation, yRotation;
     private GameObject playerMesh;
+    private bool disableControls;
 
     [SerializeField] private Button selectBtn;
 
@@ -74,6 +75,15 @@ public class PlayerControlAuthorative : NetworkBehaviour
             ClientInput();
         }
         ClientVisuals();
+    }
+
+    public void disablePlayerControls()
+    {
+        disableControls = true;
+    }
+    public void enablePlayerControls()
+    {
+        disableControls = false;
     }
 
     private void ClientVisuals()
@@ -155,6 +165,7 @@ public class PlayerControlAuthorative : NetworkBehaviour
 
     private void ClientInput()
     {
+        if (disableControls) { return; }
         // Get camera rotation and apply it to the player's body rotation
         var euler = playerCam.transform.rotation.eulerAngles;
         var rot = Quaternion.Euler(0, euler.y, 0);

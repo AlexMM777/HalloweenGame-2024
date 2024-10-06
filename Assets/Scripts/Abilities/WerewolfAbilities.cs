@@ -19,9 +19,11 @@ public class WerewolfAbilities : MonoBehaviour
     {
         postProcessingVolume.weight = 0;
         postProcessingVolume.enabled = false;
-
-        lineRenderer.enabled = false;
-        lineRenderer.positionCount = 2; // Two points: start and end
+        if (lineRenderer != null)
+        {
+            lineRenderer.enabled = false;
+            lineRenderer.positionCount = 2; // Two points: start and end
+        }
     }
 
     // Update is called once per frame
