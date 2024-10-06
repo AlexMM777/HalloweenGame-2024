@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayersManager : Singleton<PlayersManager>
 {
     private NetworkVariable<int> playersInGame = new NetworkVariable<int>();
+    private NetworkVariable<bool> isWerewolf = new NetworkVariable<bool>();
 
     public int PlayersInGame
     {

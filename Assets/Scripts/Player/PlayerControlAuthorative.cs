@@ -1,6 +1,7 @@
 using TMPro;
 using Unity.Multiplayer.Center.NetcodeForGameObjectsExample;
 using Unity.Netcode;
+using UnityEngine.UI;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Audio;
@@ -41,6 +42,8 @@ public class PlayerControlAuthorative : NetworkBehaviour
     float xRotation, yRotation;
     private GameObject playerMesh;
 
+    [SerializeField] private Button selectBtn;
+
 
     private void Awake()
     {
@@ -51,6 +54,7 @@ public class PlayerControlAuthorative : NetworkBehaviour
         camHolder = GameObject.Find("PlayerCamHolder");
         orientation = transform.Find("Body/Orientation");
         camPos = transform.Find("Body/player_mesh/metarig/spine/spine.001/spine.002/spine.003/spine.004/spine.005/CamPos");
+        selectBtn = GameObject.Find("TESTButton").GetComponent<Button>();
     }
 
     void Start()
@@ -59,6 +63,7 @@ public class PlayerControlAuthorative : NetworkBehaviour
         {
             characterBody.transform.position = new Vector3(Random.Range(defaultInitialPlanePosition.x, defaultInitialPlanePosition.y), 0, Random.Range(defaultInitialPlanePosition.x, defaultInitialPlanePosition.y));
             animator.SetBool("isOnFloor", true);
+            selectBtn.onClick.AddListener(() => ClickedButton());
         }
     }
 
@@ -252,5 +257,10 @@ public class PlayerControlAuthorative : NetworkBehaviour
     public void UpdatePlayerStateServerRpc(PlayerState newState)
     {
         networkPlayerState.Value = newState;
+    }
+
+    void ClickedButton()
+    {
+        print("CLICKED!!!");
     }
 }
