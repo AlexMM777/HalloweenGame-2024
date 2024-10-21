@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2e9a1e603e100784e9b0bb461d9a34d2
+timeCreated: 1460461307
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 58678
+  packageName: AOTL (An Open Texture Library)
+  packageVersion: 1.0
+  assetPath: Assets/AC_AOTL(AnOpenTextureLibrary)/Geo Radalf/Materials/Poly.Sand_GR.mat
+  uploadId: 112718

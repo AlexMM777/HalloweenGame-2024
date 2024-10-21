@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 95377b08826dc264bac42dc3823da348
+timeCreated: 1460383867
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 58678
+  packageName: AOTL (An Open Texture Library)
+  packageVersion: 1.0
+  assetPath: Assets/AC_AOTL(AnOpenTextureLibrary)/William White/Materials/WW_Roof.Tiles.mat
+  uploadId: 112718

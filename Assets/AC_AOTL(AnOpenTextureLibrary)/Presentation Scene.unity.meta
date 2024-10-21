@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eaf315a764a02114f97f1e09326b162f
+timeCreated: 1458389147
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 58678
+  packageName: AOTL (An Open Texture Library)
+  packageVersion: 1.0
+  assetPath: Assets/AC_AOTL(AnOpenTextureLibrary)/Presentation Scene.unity
+  uploadId: 112718

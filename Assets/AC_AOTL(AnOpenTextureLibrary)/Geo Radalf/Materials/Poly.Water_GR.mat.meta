@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9ab48faa90db953429b738bc3245e5e3
+timeCreated: 1460461774
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 58678
+  packageName: AOTL (An Open Texture Library)
+  packageVersion: 1.0
+  assetPath: Assets/AC_AOTL(AnOpenTextureLibrary)/Geo Radalf/Materials/Poly.Water_GR.mat
+  uploadId: 112718

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 002014774471d1548ae60143dcfbdc8f
+timeCreated: 1460459643
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 58678
+  packageName: AOTL (An Open Texture Library)
+  packageVersion: 1.0
+  assetPath: Assets/AC_AOTL(AnOpenTextureLibrary)/Geo Radalf/Materials/Poly.Ground_GR.mat
+  uploadId: 112718

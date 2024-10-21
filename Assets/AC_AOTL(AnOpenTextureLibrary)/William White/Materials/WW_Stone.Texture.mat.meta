@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3eec1fc43d3a92649bb5a9f285d69acc
+timeCreated: 1460385101
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 58678
+  packageName: AOTL (An Open Texture Library)
+  packageVersion: 1.0
+  assetPath: Assets/AC_AOTL(AnOpenTextureLibrary)/William White/Materials/WW_Stone.Texture.mat
+  uploadId: 112718

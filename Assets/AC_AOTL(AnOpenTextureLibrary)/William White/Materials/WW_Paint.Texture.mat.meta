@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f31dbe2b5644c9948b7a058b7346e91c
+timeCreated: 1460385447
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 58678
+  packageName: AOTL (An Open Texture Library)
+  packageVersion: 1.0
+  assetPath: Assets/AC_AOTL(AnOpenTextureLibrary)/William White/Materials/WW_Paint.Texture.mat
+  uploadId: 112718

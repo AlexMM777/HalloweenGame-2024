@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a27543aa1b3e2c443994e9c59bac48c3
+timeCreated: 1460384682
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 58678
+  packageName: AOTL (An Open Texture Library)
+  packageVersion: 1.0
+  assetPath: Assets/AC_AOTL(AnOpenTextureLibrary)/William White/Materials/WW_Bark.Texture.mat
+  uploadId: 112718

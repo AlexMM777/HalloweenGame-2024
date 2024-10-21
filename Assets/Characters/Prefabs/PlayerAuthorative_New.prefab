@@ -2276,11 +2276,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ShowTopMostFoldoutHeaderGroup: 1
   walkSpeed: 1.5
+  runningSpeed: 3
   rotationSpeed: 3
   defaultInitialPlanePosition: {x: -4, y: 4}
   networkPlayerState:
     m_InternalValue: 0
   mouseSensitivity: 10
+  networkCharacterType:
+    m_InternalValue: 0
+  playerSpacing: 2
+  locIndex: -1
+  readyBtn: {fileID: 0}
+  readyToggle: {fileID: 0}
 --- !u!1 &2427494564854196746
 GameObject:
   m_ObjectHideFlags: 0

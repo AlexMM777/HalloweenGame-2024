@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 53fac829e6d28bc42a922cd6be35278f
+timeCreated: 1460460288
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 58678
+  packageName: AOTL (An Open Texture Library)
+  packageVersion: 1.0
+  assetPath: Assets/AC_AOTL(AnOpenTextureLibrary)/Geo Radalf/Materials/Poly.Grass_GR.mat
+  uploadId: 112718

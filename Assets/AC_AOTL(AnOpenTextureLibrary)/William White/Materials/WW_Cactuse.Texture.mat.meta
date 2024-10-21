@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4cb81eebbe773bd4dbb96bbb74cab074
+timeCreated: 1460384310
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 58678
+  packageName: AOTL (An Open Texture Library)
+  packageVersion: 1.0
+  assetPath: Assets/AC_AOTL(AnOpenTextureLibrary)/William White/Materials/WW_Cactuse.Texture.mat
+  uploadId: 112718
