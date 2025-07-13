@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 114
+  controlID: 43
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 115
+  controlID: 44
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 20
+  controlID: 45
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 21
+  controlID: 46
   draggingID: 0
 --- !u!114 &9
 MonoBehaviour:
@@ -217,8 +217,8 @@ MonoBehaviour:
     y: 0
     width: 346
     height: 957
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -834,21 +834,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: c6faffff82d20000
+      m_ExpandedIDs: 7eecffffc6faffff24d10000d4d1000082d20000d2d20000d8da0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: PlaneCeiling
+        m_OriginalName: PlaneCeiling
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 56434
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 9}
@@ -1396,9 +1396,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -0.40144277, y: 3.3341484, z: -3.8799067}
+    m_Target: {x: -20.39677, y: 12.372969, z: -13.021737}
     speed: 2
-    m_Value: {x: -0.40144277, y: 3.3341484, z: -3.8799067}
+    m_Value: {x: -20.39677, y: 12.372969, z: -13.021737}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1444,13 +1444,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.16453747, y: -0.46801263, z: 0.09272148, w: 0.86379474}
+    m_Target: {x: -0.17116886, y: -0.83094126, z: 0.3652067, w: -0.38468298}
     speed: 2
-    m_Value: {x: 0.16303486, y: -0.46924824, z: 0.09222414, w: 0.86297184}
+    m_Value: {x: -0.17164864, y: -0.8299281, z: 0.3662483, w: -0.38421136}
   m_Size:
-    m_Target: 2.1189737
+    m_Target: 3.9242227
     speed: 2
-    m_Value: 2.1189737
+    m_Value: 3.9242227
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1602,10 +1602,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Asset Store\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 367
+    x: 346
     y: 79
-    width: 1620
-    height: 932
+    width: 1711
+    height: 931
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1800,7 +1800,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Hand Painted Seamless Wood Texture/Materials
+    - Assets/Mansion/Prefabs
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1810,16 +1810,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 57
   m_LastFolders:
-  - Assets/Hand Painted Seamless Wood Texture/Materials
+  - Assets/Mansion/Prefabs
   m_LastFoldersGridSize: 57
   m_LastProjectPath: C:\Users\Alex\Documents\Unity Projects\HalloweenGame-2024
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 134}
-    m_SelectedIDs: 98e30000
-    m_LastClickedID: 58264
-    m_ExpandedIDs: 00000000a4e200003ce3000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 86}
+    m_SelectedIDs: 7cea0000
+    m_LastClickedID: 60028
+    m_ExpandedIDs: 00000000a4e2000042e3000044e300007aea00007cea00008aea000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1876,7 +1876,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000bec6ffffb64c0000f87d0000c401010034ba010050ba010040ba010016e40000ceb80000b48a000094e4000098ae0000c6b000003af80000feb00000fab00000f0b00000ecb000009a350800cc8a0000180a0100c208010084600000fa2d0100002e0100605f00005a7a00003a64020000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
